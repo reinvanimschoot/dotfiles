@@ -132,7 +132,7 @@ alias run-android='react-native run-android'
 alias fastlane='bundle exec fastlane'
 
 # GENERAL
-alias rm='rm -rf'
+alias rm='rm -rf ~/.Trash'
 alias ls='ls -a'
 alias tr='tree'
 
