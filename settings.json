@@ -1,0 +1,65 @@
+{
+    // WORKBENCH
+    "workbench.colorTheme": "Dracula",
+    "workbench.startupEditor": "none",
+
+    // PRETTIER
+    "prettier.tslintIntegration": true,
+    "prettier.requireConfig": true,
+    "prettier.disableLanguages": [
+        "vue",
+        "reason",
+        "ocaml"
+    ],
+
+    // EDITOR GENERAL
+    "editor.tabSize": 2,
+    "editor.colorDecorators": false,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Source Code Pro, Monaco, 'Courier New', monospace",
+    "editor.occurrencesHighlight": false,
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "files.autoSave": "onFocusChange",
+
+    // EXPLORER
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.decorations.badges": false,
+    "problems.decorations.enabled": false,
+
+    // FORMATTING
+    "html.format.enable": false,
+    "javascript.format.enable": false,
+    "javascript.validate.enable": false,
+
+    // GIT
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "git.enableSmartCommit": true,
+    "merge-conflict.decorators.enabled": true,
+
+    // TERMINAL
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "terminal.integrated.fontWeightBold": "500",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.letterSpacing": 1,
+    
+    // VSCODE ICONS
+
+    // EMMET
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "typescriptreact": "javascriptreact",
+    },
+    "window.zoomLevel": 0,
+    "editor.gotoLocation.multiple": "goto"
+
+}
